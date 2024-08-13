@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Outfit:wght@100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins";
+}
+
+body {
+  background: #111111;
+  color: yellow;
+}
+
+/* NAVIGATION SECTION */
+
+nav {
+  background: transparent;
+}
+
+.navbar-brand {
+  padding-left: 40px;
+  font-weight: 600;
+  color: var(--violet);
+}
+
+.navbar-nav {
+  padding-right: 30px;
+  font-weight: 600;
+}
+
+.navbar-nav:hover {
+  color: black;
+}
+
+.btn {
+  font-family: inherit;
+  cursor: pointer;
+  outline: 0;
+  font-size: 1.05rem;
+}
+.text {
+  opacity: 0.8;
+}
+.title {
+  font-size: 4rem;
+  font-weight: bold;
+  margin-top: 160px;
+}
+
+blockquote {
+  font-size: 1.5rem;
+  font-family: "Dancing Script", cursive;
+  margin-top: 15px;
+}
+
+form {
+  width: 90%;
+  max-width: 600px;
+  margin: auto;
+  height: 80px;
+  background: whitesmoke;
+  display: flex;
+  align-items: center;
+  border-radius: 8px;
+}
+form input {
+  flex: 1;
+  height: 100%;
+  border: 0;
+  outline: 0;
+  background: transparent;
+  color: white;
+  font-size: 18px;
+  padding: 0 30px;
+}
+
+form button {
+  padding: 0 40px;
+  height: 100%;
+  background: white;
+  font-size: 18px;
+  border: 0;
+  outline: 0;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  cursor: pointer;
+}
+::placeholder {
+  color: white;
+  font-size: 18px;
+}
+
+#show-more-btn {
+  background: black;
+  color: white;
+  border: 0;
+  outline: 0;
+  padding: 10px 20px;
+  border-radius: 4px;
+  margin: 10px auto 100px;
+  cursor: pointer;
+  display: none;
+}
+#search-result {
+  width: 80%;
+  margin: 100px auto 50px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 40px;
+}
+#search-result img {
+  width: 100%;
+  height: 230px;
+  object-fit: cover;
+  border-radius: 5px;
+}
